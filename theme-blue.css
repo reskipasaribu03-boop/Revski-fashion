@@ -1,0 +1,171 @@
+/***************************************************
+    THEME BLUE — FINAL VERSION
+    warna dasar: #007bff (biru)
+****************************************************/
+
+/* ------------------------------
+   GLOBAL BASE
+--------------------------------*/
+body {
+  background-color: #f1f5ff !important;
+  font-family: Arial, sans-serif;
+}
+
+/* ------------------------------
+   NAVBAR TOP
+--------------------------------*/
+.navbar-default {
+  background-color: #007bff !important;
+  border-color: #0056b3 !important;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #d9eaff !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #0056b3 !important;
+  color: #ffffff !important;
+}
+
+/* ------------------------------
+   SIDEBAR MENU
+--------------------------------*/
+.nav-side-menu {
+  background-color: #0269d9 !important;
+}
+
+#main-menu .nav > li > a {
+  background-color: #0269d9 !important;
+  color: #ffffff !important;
+}
+
+#main-menu .nav > li > a:hover,
+#main-menu .nav > li > a:focus {
+  background-color: #0056b3 !important;
+  color: #ffffff !important;
+}
+
+#main-menu .nav > li.active > a {
+  background-color: #004a99 !important;
+}
+
+/* Dropdown */
+#main-menu .nav-second-level li a {
+  background-color: #0056b3 !important;
+  color: #ffffff !important;
+}
+
+#main-menu .nav-second-level li a:hover {
+  background-color: #004a99 !important;
+}
+
+/* ------------------------------
+   PANEL (BOOTSTRAP BOX)
+--------------------------------*/
+.panel-primary > .panel-heading {
+  background-color: #007bff !important;
+  border-color: #0056b3 !important;
+  color: #ffffff !important;
+}
+
+.panel-primary {
+  border-color: #0056b3 !important;
+}
+
+/* ------------------------------
+   BUTTONS
+--------------------------------*/
+.btn-primary {
+  background-color: #007bff !important;
+  border-color: #0056b3 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3 !important;
+  border-color: #004a99 !important;
+  color: #ffffff !important;
+}
+
+.btn-info {
+  background-color: #17a2b8 !important;
+  border-color: #117a8b !important;
+  color: #ffffff !important;
+}
+
+/* ------------------------------
+   TABLE HEADER
+--------------------------------*/
+.table thead {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+}
+
+/* ------------------------------
+   FORM INPUTS
+--------------------------------*/
+.form-control:focus {
+  border-color: #007bff !important;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5) !important;
+}
+
+/* ------------------------------
+   FOOTER
+--------------------------------*/
+footer {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+  padding: 12px;
+  text-align: center;
+}
+
+/* ------------------------------
+   LOGIN PAGE THEME
+--------------------------------*/
+.login-panel {
+  border-color: #007bff !important;
+}
+
+.login-panel .panel-heading {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+}
+
+/* ------------------------------
+   DASHBOARD BOX / ICON CARDS
+--------------------------------*/
+div.bg-color-blue {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+}
+
+div.bg-color-blue i {
+  color: #d9eaff !important;
+}
+
+/* ------------------------------
+   CUSTOM LINKS
+--------------------------------*/
+a {
+  color: #007bff !important;
+}
+
+a:hover {
+  color: #0056b3 !important;
+}
+
+/* ------------------------------
+   TABLE ROW HOVER
+--------------------------------*/
+.table-hover tbody tr:hover {
+  background-color: #e8f0ff !important;
+}
